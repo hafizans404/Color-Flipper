@@ -1,0 +1,44 @@
+/* Apply a smooth transition effect to body background color */
+body {
+    transition: background-color 0.5s;
+}
+
+/* Styling for the color display section */
+section#colour-display {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 200px auto;
+    width: 50%;
+    background-color: white;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 5px;
+}
+
+/* Styling for the color display text */
+section#colour-display h1 {
+    font-weight: 900;
+}
+
+/* Styling for the "New Colour" button */
+section#colour-display #new-colour-button {
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    padding: 15px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+
+
+/* Hover Effect for Buttons */
+
+/* When hovering over the #new-colour-button or #copy-to-clipboard-button elements, 
+   apply a scale transformation to make them 10% larger */
+#new-colour-button:hover,
+#copy-to-clipboard-button:hover {
+    transform: scale(1.1);
+}
